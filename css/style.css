@@ -436,7 +436,7 @@ main > .projects-section {
   margin: 0;
   margin-bottom: 50px;
 }
-.filter-list .btn {
+.filter-list__button {
   padding: 6px 22px;
   background-color: var(--background-color);
   border-radius: 4px;
@@ -454,11 +454,11 @@ main > .projects-section {
     color 250ms var(--transition-cubic),
     box-shadow 250ms var(--transition-cubic);
 }
-.filter-list > .item:not(:last-child) {
+.filter-list__item:not(:last-child) {
   margin-right: 8px;
 }
-.filter-list .btn:hover,
-.filter-list .btn:focus {
+.filter-list__button:hover,
+.filter-list__button:focus {
   background-color: var(--accent-color);
   color: var(--white);
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
@@ -473,17 +473,17 @@ main > .projects-section {
   margin-top: calc(-1 * var(--portfolio-card-margin));
   margin-bottom: 0;
 }
-.portfolio-list > .item {
+.portfolio-list__item {
   flex-basis: calc(100% / 3 - var(--portfolio-card-margin));
   margin-top: var(--portfolio-card-margin);
   margin-left: var(--portfolio-card-margin);
 }
-.portfolio-list-link {
+.portfolio-link {
   text-decoration: none;
   transition: box-shadow var(--transition-cubic) 250ms;
 }
-.portfolio-list-link:hover,
-.portfolio-list-link:focus {
+.portfolio-link:hover,
+.portfolio-link:focus {
   display: block;
   width: 100%;
   height: 100%;
@@ -493,7 +493,7 @@ main > .projects-section {
 .img {
   max-width: 100%;
 }
-.portfolio-list-title {
+.portfolio-link__title{
   margin-bottom: 4px;
   color: var(--title-text-color);
   font-weight: 700;
@@ -501,7 +501,7 @@ main > .projects-section {
   line-height: 2;
   letter-spacing: 0.06em;
 }
-.portfolio-list-type {
+.portfolio-link__type {
   margin-top: 0;
 
   color: var(--primary-text-color);
@@ -509,15 +509,15 @@ main > .projects-section {
   line-height: 1.88;
   letter-spacing: 0.03em;
 }
-.portfolio-list-content {
+.portfolio-link__content{
   padding: 20px 24px;
   border: 1px solid rgba(238, 238, 238, 1);
 }
-.portfolio-thumb {
+.portfolio-link__thumb {
   position: relative;
   overflow: hidden;
 }
-.card-text-overlay {
+.portfolio-link__text-overlay {
   position: absolute;
   bottom: 0;
 
@@ -529,15 +529,15 @@ main > .projects-section {
 
   transition: transform var(--transition-cubic) 250ms;
 }
-.portfolio-list-link:hover .card-text-overlay,
-.portfolio-list-link:focus .card-text-overlay {
+.portfolio-link:hover .portfolio-link__text-overlay,
+.portfolio-link:focus .portfolio-link__text-overlay {
   position: absolute;
 
   transform: translateY(0);
   top: 0;
   z-index: 1;
 }
-.card-text {
+.portfolio-link__text {
   position: absolute;
   top: 0;
 
