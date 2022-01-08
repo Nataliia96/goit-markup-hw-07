@@ -119,46 +119,13 @@ td, th {
 }
 
 body {
+  padding-top: 80px;
   font-family: "Roboto", sans-serif;
   color: var(--primary-text-color);
 }
 
-body {
-  padding-top: 80px;
-}
-
-li {
-  list-style: none;
-}
-
-ul {
-  padding: 0;
-}
-
-h1,
-h2,
-h3 {
-  margin-top: 0;
-}
-
-p {
-  margin-bottom: 0;
-}
-
 img {
   display: block;
-}
-
-.projects-section__title,
-.team-section__title,
-.clients-section-title {
-  margin-bottom: 50px;
-  color: var(--title-text-color);
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.17;
-  text-align: center;
-  letter-spacing: 0.03em;
 }
 
 .section {
@@ -174,6 +141,18 @@ main > .projects-section {
   margin: 0 auto;
   padding-left: 15px;
   padding-right: 15px;
+}
+
+.projects-section__title,
+.team-section__title,
+.clients-section-title {
+  margin-bottom: 50px;
+  color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
 
 .header {
