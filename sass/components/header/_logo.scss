@@ -1,0 +1,10 @@
+// Лого
+.logo__accent--header{
+    @extend %logo;
+    color: var(--accent-color);
+}
+  .logo--header{
+    @extend %logo;
+    margin-right: 93px;
+    color: var(--title-text-color);
+}

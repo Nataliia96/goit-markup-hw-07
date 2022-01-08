@@ -1,0 +1,45 @@
+// Переменные и нормализация
+@import "./utils/normalize";
+@import "./utils/variables";
+@import "./utils/placeholders";
+
+// Базовые стили
+@import "./base/font";
+@import "./base/global-styles";
+
+// Шапка
+@import "./components/common";
+@import "./components/containers";
+@import "./components/header/header";
+@import "./components/header/logo";
+@import "./components/header/main-navigation";
+@import "./components/header/contacts-header";
+
+// Герой
+@import "./components/hero-section/hero-backgroud";
+@import "./components/hero-section/hero-title";
+@import "./components/hero-section/hero-btn";
+
+// Особенности
+@import "./components/features";
+// Проэкты
+@import "./components/projects";
+// Команда
+@import "./components/team";
+// Клиенты
+@import "./components/clients";
+
+// Портфолио
+@import "./components/portfolio/portfolio-section";
+@import "./components/portfolio/portfolio-filter";
+@import "./components/portfolio/portfolio-cards";
+
+// Футер
+@import "./components/footer/footer-section";
+@import "./components/footer/logo-footer";
+@import "./components/footer/contacts-footer";
+@import "./components/footer/socials-footer";
+@import "./components/footer/form-subsr-footer";
+
+// Модальное окно
+@import "./components/modal";
