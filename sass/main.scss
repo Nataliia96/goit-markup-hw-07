@@ -4,12 +4,10 @@
 @import "./utils/placeholders";
 
 // Базовые стили
-@import "./base/font";
 @import "./base/global-styles";
 
 // Шапка
 @import "./components/common";
-@import "./components/containers";
 @import "./components/header/header";
 @import "./components/header/logo";
 @import "./components/header/main-navigation";
