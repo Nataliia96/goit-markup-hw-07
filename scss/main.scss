@@ -5,9 +5,10 @@
 
 // Базовые стили
 @import "./base/global-styles";
+@import "./base/reset";
 
-// Шапка
 @import "./components/common";
+// Шапка
 @import "./components/header/header";
 @import "./components/header/logo";
 @import "./components/header/main-navigation";
