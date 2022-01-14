@@ -1,30 +1,3 @@
-.projects-list {
-    display: flex;
-    justify-content: space-between;
-    margin: 0;
-}
-  .projects-list__item {
-    position: relative;
-}
-  .projects-list__decription {
-    position: absolute;
-    bottom: 0;
-  
-    width: 370px;
-    height: 70px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  
-    margin: 0;
-  
-    background-color: rgba(47, 48, 58, 0.8);
-  
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-  
-    color: var(--white);
+.projects-section {
+    display:none;
 }

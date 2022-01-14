@@ -13,10 +13,16 @@
     <link rel="stylesheet" href="./css/main.min.css">
 </head>
 <body>
- <header class="header-section">
+ <header>
      <div class="container header">
      <nav class="header__nav-flex"> 
      <a href="./index.html" class="logo--header"><span class="logo__accent--header">Web</span>Studio</a>
+     <button type="button" class="header__menu-btn">
+         <svg width="40px" height="40px">
+             <use href="./images/icons.svg#icon-menu"></use>
+             <use></use>
+         </svg>
+     </button>
      <ul class="site-nav">
          <li class="site-nav__item"><a href="./index.html" class="site-nav__link current">Студия</a></li>
          <li class="site-nav__item"><a href="./portfolio.html" class="site-nav__link">Портфолио</a></li>
@@ -38,7 +44,7 @@
  </header>
  <main>
      <section class="hero-section">
-         <div class="container hero-content">
+         <div class="hero-content">
          <h1 class="hero-title">Эффективные решения <br>для вашего бизнеса</h1>
          <button type="button" class="hero-btn" data-modal-open >Заказать услугу</button>
         </div>
@@ -105,9 +111,9 @@
          <h2 class="team-section__title">Наша команда</h2>
          <ul class="team-members">
              <li class="team-members__item">
-                <img src="./images/img4.jpg" alt="Фотография Игоря Демьяненко" width="270"> 
+                <img src="./images/img4.jpg" alt="Фотография Игоря Демьяненко" class="team-members-pic"> 
                 <div class="team-members__content">
-                <h3 class="team-members__title">Игорь Демьяненко</h3>
+                <h3 class="team-members__name">Игорь Демьяненко</h3>
                 <p class="team-members__position">Product Designer</p>
                 
                 <ul class="socials">
@@ -143,9 +149,9 @@
                 </div>
              </li>
             <li class="team-members__item">
-                <img src="./images/img5.jpg" alt="Фотография Ольги Репиной" width="270">
+                <img src="./images/img5.jpg" alt="Фотография Ольги Репиной" class="team-members-pic">
                 <div class="team-members__content">
-                <h3 class="team-members__title">Ольга Репина</h3>
+                <h3 class="team-members__name">Ольга Репина</h3>
                 <p class="team-members__position">Frontend Developer</p>
                 <ul class="socials">
                     <li class="socials__point">
@@ -180,9 +186,9 @@
                 </div>
             </li>
             <li class="team-members__item">
-                <img src="./images/img6.jpg" alt="Фотография Николая Тарасова" width="270">
+                <img src="./images/img6.jpg" alt="Фотография Николая Тарасова" class="team-members-pic">
                 <div class="team-members__content">
-                <h3 class="team-members__title">Николай Тарасов</h3>
+                <h3 class="team-members__name">Николай Тарасов</h3>
                 <p class="team-members__position">Marketing</p>
                 <ul class="socials">
                     <li class="socials__point">
@@ -217,9 +223,9 @@
                 </div>
             </li>
             <li class="team-members__item">
-                <img src="./images/img7.jpg" alt="Фотография Михаила Ермакова" width="270">
+                <img src="./images/img7.jpg" alt="Фотография Михаила Ермакова" class="team-members-pic">
                 <div class="team-members__content">
-                <h3 class="team-members__title">Михаил Ермаков</h3>
+                <h3 class="team-members__name">Михаил Ермаков</h3>
                 <p class="team-members__position">UI Designer</p>
                 <ul class="socials">
                     <li class="socials__point">

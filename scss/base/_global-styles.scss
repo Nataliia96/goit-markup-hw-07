@@ -1,7 +1,7 @@
 body {
     font-family: "Roboto", sans-serif;
     color: var(--primary-text-color);
-    padding-top: 80px;
+    padding-top: 60px;
   }
   li {
     list-style: none;
@@ -22,16 +22,12 @@ body {
   img {
     display: block;
   }
-
-.section {
-    padding: 94px 0;
-}
-main > .projects-section {
-    padding: 0 0 94px 0;
+  .section {
+    padding: 60px 0;
 }
 //  Контейнер 
 .container {
-    width: 1200px;
+    width: 480px;
     margin: 0 auto;
     padding-left: 15px;
     padding-right: 15px;

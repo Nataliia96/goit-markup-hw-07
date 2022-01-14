@@ -1,9 +1,12 @@
+.team-section {
+    background-color: var(--background-color);
+}
 .team-members {
-    display: flex;
-    justify-content: space-between;
     margin: 0;
 }
 .team-members__item {
+    width:100%;
+
     background: var(--white);
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
       0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -11,11 +14,17 @@
   
     text-align: center;
 }
+.team-members__item:not(:last-child){
+    margin-bottom: 30px;
+  }
+.team-members-pic{
+    width:100%;
+}
 .team-members__content {
     padding-top: 30px;
-    padding-bottom: 30px;
+    padding-bottom: 24px;
 }
-.team-members__title {
+.team-members__name {
     margin-bottom: 10px;
   
     font-weight: 500;
@@ -25,15 +34,12 @@
     color: var(--title-text-color);
 }
 .team-members__position {
-    margin-top: 0px;
-    margin-bottom: 16px;
+    margin: 0 0 16px 0;
     font-size: 16px;
     line-height: 1.19;
     letter-spacing: 0.03em;
 }
-  .team-section {
-    background-color: var(--background-color);
-}
+
 //  Наша команда + футер - иконки соцсетей 
   .socials {
     margin-left: auto;
@@ -67,5 +73,3 @@
       fill: var(--white);
     }
 }
-  
-  

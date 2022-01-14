@@ -16,9 +16,9 @@
   
     cursor: pointer;
     transition: background-color 250ms var(--transition-cubic);
+
     &:hover,
     &:focus {
       background-color: var(--hover-btn-color);
     }
 }
-  

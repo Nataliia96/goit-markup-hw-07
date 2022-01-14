@@ -6,38 +6,40 @@
 @import "./base/global-styles";
 
 // Общее
-@import "./components/common";
+ @import "./components/common";
 // Шапка
 @import "./components/header/header";
 @import "./components/header/logo";
+@import "./components/header/menu-button";
 @import "./components/header/main-navigation";
 @import "./components/header/contacts-header";
 
-// Герой
-@import "./components/hero-section/hero-backgroud";
-@import "./components/hero-section/hero-title";
-@import "./components/hero-section/hero-btn";
 
-// Особенности
+// Герой
+@import "./components/hero-section/hero-background";
+@import "./components/hero-section/hero-title";
+ @import "./components/hero-section/hero-btn";
+
+// // Особенности
 @import "./components/features";
-// Проэкты
+// // Проэкты
 @import "./components/projects";
-// Команда
+// // Команда
 @import "./components/team";
-// Клиенты
+// // Клиенты
 @import "./components/clients";
 
-// Портфолио
-@import "./components/portfolio/portfolio-section";
-@import "./components/portfolio/portfolio-filter";
-@import "./components/portfolio/portfolio-cards";
+// // Портфолио
+// @import "./components/portfolio/portfolio-section";
+// @import "./components/portfolio/portfolio-filter";
+// @import "./components/portfolio/portfolio-cards";
 
-// Футер
-@import "./components/footer/footer-section";
-@import "./components/footer/logo-footer";
-@import "./components/footer/contacts-footer";
-@import "./components/footer/socials-footer";
-@import "./components/footer/form-subsr-footer";
+// // Футер
+// @import "./components/footer/footer-section";
+// @import "./components/footer/logo-footer";
+// @import "./components/footer/contacts-footer";
+// @import "./components/footer/socials-footer";
+// @import "./components/footer/form-subsr-footer";
 
-// Модальное окно
-@import "./components/modal";
+// // Модальное окно
+// @import "./components/modal";

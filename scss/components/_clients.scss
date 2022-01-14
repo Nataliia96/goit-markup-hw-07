@@ -1,14 +1,17 @@
 .clients-list {
-    margin: 0;
     padding: 0;
+    margin-bottom: -30px;
   
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
 }
 
   .clients-list__item {
-    width: 170px;
+    width: 210px;
     height: 92px;
+    margin-bottom: 30px;
+
 }
   .clients-list__link {
     display: flex;
