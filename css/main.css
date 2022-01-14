@@ -231,10 +231,6 @@ img {
   background-color: var(--background-color);
 }
 
-.team-members {
-  margin: 0;
-}
-
 .team-members__item {
   width: 100%;
   background: var(--white);
